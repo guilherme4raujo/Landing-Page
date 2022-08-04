@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&family=Uchen&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: rgb(231, 92, 92) ;
+}
+.logo-cabecalho{
+    font-family: 'Uchen', serif;
+    color:aliceblue;
+    font-size: 17px;
+}
+a{
+    font-family: 'Uchen', serif;
+    color: aliceblue;
+    padding-left: 20px;
+}
+body{
+    background-color: black;
+}
+.conteudo-principal{
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 48px;
+}
+.primeiro_conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.frase_conteudo{
+    font-family: 'Square Peg', cursive;
+    font-weight: 400;  
+    margin-bottom: 10px;
+    color:rgb(245, 88, 88);
+    font-size: 45px;
+
+}
+.botao{
+    background-color: aliceblue;
+    height: 60px;
+    width: 140px;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.botao:hover{
+    background-color: rgb(255, 112, 112);
+}
+.segundo_conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:gray;
+    padding:30px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.frase_segundo_conteudo{
+    padding-bottom: 20px;
+    padding-top: 2px;
+}
